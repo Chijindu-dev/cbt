@@ -1,0 +1,53 @@
+
+
+.Default_Wrapper{
+    border: 1px solid #eaeaea;
+    width: 500px;
+    height: 190px;
+    border-radius: 4px;
+    background-color: rgb(247, 245, 242);
+    padding: 14px;
+    position: absolute;
+    top: 7px;
+    z-index: 987654;
+    filter: drop-shadow(3px 10px 4px #d3d3d3);
+    user-select: none;
+}
+
+.Default_Wrapper p{
+    line-height: 1.39em;
+}
+
+.fc__{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.Close{
+    border: 1px solid #dadada;
+}
+
+.Close:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+.Close:active{
+    transform: scale(1.06);
+    outline: invert;
+}
+
+@media (min-width: 299px) and (max-width:360px){
+    .Default_Wrapper{
+        width: 350px;
+    }
+}
+
+@media (min-width:361px) and (max-width:589px){
+    .Default_Wrapper{
+        width: 370px;
+    }
+}
+
+/* .Exit_Box_Btn{} */

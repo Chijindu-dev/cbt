@@ -1,0 +1,58 @@
+
+
+.__Box__{
+    width: 370px;
+    height: 190px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 4px 2px #d0d0d0);
+    position: absolute;
+    z-index: 9999999999;
+    border-radius: 9px;
+    box-shadow: 3px 5px 7px #d1d1d1;
+}
+
+.__Surety__{
+    font-size: 23px;
+}
+
+.Yes_Or_No_{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 210px;
+    font-size: 24px;
+    margin-top: 1em;
+}
+
+.__Yes__OOO{
+    background-color: #337c51;
+    padding: 6px 19px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color .1s linear;
+}
+
+.__Yes__OOO:hover{
+    background-color: #07af4d;
+}
+
+.__Yes__OOO:active, .__No__OOO:active{
+    transform: scale(1.08);
+}
+
+.__No__OOO{
+    background-color: #b6170c;
+    padding: 6px 19px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color .1s linear;
+}
+
+.__No__OOO:hover{
+    background-color: #f31c0c;
+}

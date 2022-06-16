@@ -1,0 +1,41 @@
+
+
+.Extreme{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Submit_Exam{
+    padding: 16px 36px;
+    outline: none;
+    /* background-color: rgb(68, 128, 12); */
+    background-color: rgb(68, 128, 12);;
+    color: #fff;
+    border: none !important;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 17px 18em;
+    transition: transform .05s ease;
+}
+
+@media(min-width:360px) and (max-width: 690px){
+    .Submit_Exam{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.256cm auto;
+        padding: 11px 36px;
+        border-radius: 6px;
+    }
+}
+
+.Submit_Exam:hover{
+    transform: scaleY(1.06);
+/* font-size: 18.2px; */
+    
+
+}
+
+.Submit_Exam:active{
+    font-size: 18px;
+}
